@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Música | KIRU Escuela de Artes</title>
+
+    <meta
+        name="description"
+        content="Explora los cursos de música de KIRU Escuela de Artes: piano, violín, guitarra, batería, técnica vocal e iniciación musical."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="disciplinas.css">
+</head>
+
+
+<body class="music-page">
+
+
+<!-- ==================================================
+HEADER
+================================================== -->
+
+<header class="discipline-header">
+
+    <div class="discipline-nav">
+
+        <a
+            href="../index.html"
+            class="discipline-logo"
+        >
+            <img
+                src="../img/logo.png"
+                alt="KIRU Escuela de Artes"
+            >
+
+            <div>
+                <strong>KIRU</strong>
+                <span>Escuela de Artes</span>
+            </div>
+        </a>
+
+
+        <nav class="discipline-menu">
+
+            <a href="../index.html">
+                Inicio
+            </a>
+
+            <a href="#cursos">
+                Cursos
+            </a>
+
+            <a href="#experiencia">
+                Experiencia
+            </a>
+
+            <a href="#metodologia">
+                Metodología
+            </a>
+
+        </nav>
+
+
+        <div class="discipline-search">
+
+    <div class="discipline-search-box">
+
+        <i class="bi bi-search"></i>
+
+        <input
+            type="text"
+            id="musicSearch"
+            placeholder="Buscar curso..."
+            autocomplete="off"
+        >
+
+    </div>
+
+    <div
+        class="discipline-search-results"
+        id="musicSearchResults"
+    ></div>
+
+</div>
+
+</header>
+
+
+
+<main>
+
+
+<!-- ==================================================
+HERO MÚSICA
+================================================== -->
+
+<section class="discipline-hero music-theme">
+
+    <div class="discipline-hero-content">
+
+        <a
+            href="../index.html#disciplinas"
+            class="discipline-back"
+        >
+            <i class="bi bi-arrow-left"></i>
+            Volver a disciplinas
+        </a>
+
+
+        <span class="discipline-eyebrow">
+            KIRU SOUND
+        </span>
+
+
+        <h1>
+            Música que se
+            <span>siente, aprende</span>
+            y comparte.
+        </h1>
+
+
+        <p>
+            Descubre la música desde la práctica, la creatividad
+            y la expresión. Encuentra el instrumento o la forma
+            de interpretar que mejor conecta contigo.
+        </p>
+
+
+        <div class="discipline-hero-actions">
+
+            <a
+                href="#cursos"
+                class="discipline-btn primary"
+            >
+                Explorar cursos
+
+                <i class="bi bi-arrow-down-right"></i>
+            </a>
+
+
+            <a
+                href="../index.html#contacto"
+                class="discipline-btn secondary"
+            >
+                Conocer KIRU
+
+                <i class="bi bi-stars"></i>
+            </a>
+
+        </div>
+
+
+        <div class="discipline-hero-details">
+
+            <span>
+                <i class="bi bi-geo-alt-fill"></i>
+                Presencial
+            </span>
+
+            <span>
+                <i class="bi bi-person-fill"></i>
+                Desde los 5 años
+            </span>
+
+            <span>
+                <i class="bi bi-music-note-beamed"></i>
+                Formación artística
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="discipline-hero-art music-hero-art">
+
+    <div class="music-wave music-wave-one"></div>
+    <div class="music-wave music-wave-two"></div>
+    <div class="music-wave music-wave-three"></div>
+
+    <div class="music-vinyl">
+
+        <div class="vinyl-groove groove-one"></div>
+        <div class="vinyl-groove groove-two"></div>
+        <div class="vinyl-groove groove-three"></div>
+
+        <div class="vinyl-center">
+            <i class="bi bi-music-note-beamed"></i>
+
+            <span>
+                KIRU
+                <strong>SOUND</strong>
+            </span>
+        </div>
+
+    </div>
+
+    <div class="vinyl-arm">
+        <span></span>
+    </div>
+
+    <div class="music-floating floating-one">
+        <i class="bi bi-music-note"></i>
+        <span>Interpretación</span>
+    </div>
+
+    <div class="music-floating floating-two">
+        <i class="bi bi-headphones"></i>
+        <span>Escucha</span>
+    </div>
+
+    <div class="music-floating floating-three">
+        <i class="bi bi-mic-fill"></i>
+        <span>Expresión</span>
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- ==================================================
+INTRO
+================================================== -->
+
+<section
+    class="discipline-intro"
+    id="experiencia"
+>
+
+    <div class="discipline-intro-title">
+
+        <span>
+            FORMACIÓN MUSICAL
+        </span>
+
+        <h2>
+            Encuentra tu propia
+            forma de hacer música.
+        </h2>
+
+    </div>
+
+
+    <div class="discipline-intro-content">
+
+        <p>
+            En KIRU la formación musical combina práctica,
+            interpretación y desarrollo artístico para que cada
+            estudiante descubra sus capacidades y avance a su ritmo.
+        </p>
+
+        <p>
+            Desde los primeros acercamientos a la música hasta
+            el desarrollo de habilidades específicas, cada proceso
+            busca fortalecer la confianza, sensibilidad y expresión.
+        </p>
+
+
+        <div class="intro-stats">
+
+            <div>
+                <strong>06</strong>
+                <span>Caminos musicales</span>
+            </div>
+
+            <div>
+                <strong>100%</strong>
+                <span>Presencial</span>
+            </div>
+
+            <div>
+                <strong>5+</strong>
+                <span>Edad de ingreso</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+CURSOS
+================================================== -->
+
+<section
+    class="courses-section"
+    id="cursos"
+>
+
+    <div class="courses-heading">
+
+        <span>
+            CURSOS DE MÚSICA
+        </span>
+
+        <h2>
+            ¿Qué quieres aprender?
+        </h2>
+
+        <p>
+            Explora cada curso y conoce su propuesta,
+            características e información de inscripción.
+        </p>
+
+    </div>
+
+
+
+    <div class="courses-grid">
+
+
+        <!-- VIOLÍN -->
+
+        <article class="course-card">
+
+            <div class="course-card-number">
+                01
+            </div>
+
+            <div class="course-card-icon">
+                <i class="bi bi-music-note"></i>
+            </div>
+
+            <span class="course-category">
+                CUERDAS
+            </span>
+
+            <h3>
+                Violín
+            </h3>
+
+            <p>
+                Desarrolla interpretación, técnica,
+                sensibilidad auditiva y expresión musical.
+            </p>
+
+            <div class="course-card-footer">
+
+                <a
+                    href="cursos/violin.html"
+                    class="course-more"
+                >
+                    Ver curso
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- PIANO -->
+
+        <article class="course-card">
+
+            <div class="course-card-number">
+                02
+            </div>
+
+            <div class="course-card-icon">
+                <i class="bi bi-music-note-list"></i>
+            </div>
+
+            <span class="course-category">
+                TECLAS
+            </span>
+
+            <h3>
+                Piano
+            </h3>
+
+            <p>
+                Aprende técnica, interpretación y fundamentos
+                musicales a través del teclado.
+            </p>
+
+            <div class="course-card-footer">
+
+                <a
+                    href="cursos/piano.html"
+                    class="course-more"
+                >
+                    Ver curso
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- GUITARRA -->
+
+        <article class="course-card">
+
+            <div class="course-card-number">
+                03
+            </div>
+
+            <div class="course-card-icon">
+                <i class="bi bi-music-note-beamed"></i>
+            </div>
+
+            <span class="course-category">
+                CUERDAS
+            </span>
+
+            <h3>
+                Guitarra
+            </h3>
+
+            <p>
+                Explora acordes, ritmo, acompañamiento
+                e interpretación musical.
+            </p>
+
+            <div class="course-card-footer">
+
+                <a
+                    href="cursos/guitarra.html"
+                    class="course-more"
+                >
+                    Ver curso
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- BATERÍA -->
+
+        <article class="course-card">
+
+            <div class="course-card-number">
+                04
+            </div>
+
+            <div class="course-card-icon">
+                <i class="bi bi-soundwave"></i>
+            </div>
+
+            <span class="course-category">
+                RITMO
+            </span>
+
+            <h3>
+                Batería
+            </h3>
+
+            <p>
+                Desarrolla coordinación, precisión,
+                ritmo y control mediante la percusión.
+            </p>
+
+            <div class="course-card-footer">
+
+                <a
+                    href="cursos/bateria.html"
+                    class="course-more"
+                >
+                    Ver curso
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- TÉCNICA VOCAL -->
+
+        <article class="course-card">
+
+            <div class="course-card-number">
+                05
+            </div>
+
+            <div class="course-card-icon">
+                <i class="bi bi-mic-fill"></i>
+            </div>
+
+            <span class="course-category">
+                VOZ
+            </span>
+
+            <h3>
+                Técnica vocal
+            </h3>
+
+            <p>
+                Conoce y fortalece tu voz mientras trabajas
+                respiración, afinación e interpretación.
+            </p>
+
+            <div class="course-card-footer">
+
+                <a
+                    href="cursos/tecnica-vocal.html"
+                    class="course-more"
+                >
+                    Ver curso
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- INICIACIÓN MUSICAL -->
+
+        <article class="course-card">
+
+            <div class="course-card-number">
+                06
+            </div>
+
+            <div class="course-card-icon">
+                <i class="bi bi-stars"></i>
+            </div>
+
+            <span class="course-category">
+                PRIMEROS PASOS
+            </span>
+
+            <h3>
+                Iniciación musical
+            </h3>
+
+            <p>
+                Una introducción al ritmo, sonido y expresión
+                para comenzar a descubrir el mundo musical.
+            </p>
+
+            <div class="course-card-footer">
+
+                <a
+                    href="cursos/iniciacion-musical.html"
+                    class="course-more"
+                >
+                    Ver curso
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+METODOLOGÍA
+================================================== -->
+
+<section
+    class="discipline-method"
+    id="metodologia"
+>
+
+    <div class="method-heading">
+
+        <span>
+            ASÍ APRENDEMOS
+        </span>
+
+        <h2>
+            Más que tocar.
+            Aprende a vivir la música.
+        </h2>
+
+    </div>
+
+
+
+    <div class="method-grid">
+
+        <article>
+
+            <span>01</span>
+
+            <i class="bi bi-person-check"></i>
+
+            <h3>
+                Acompañamiento
+            </h3>
+
+            <p>
+                Cada estudiante desarrolla sus habilidades
+                mediante orientación y práctica constante.
+            </p>
+
+        </article>
+
+
+        <article>
+
+            <span>02</span>
+
+            <i class="bi bi-music-note-list"></i>
+
+            <h3>
+                Técnica
+            </h3>
+
+            <p>
+                Construye bases musicales que te permitan
+                avanzar de forma progresiva.
+            </p>
+
+        </article>
+
+
+        <article>
+
+            <span>03</span>
+
+            <i class="bi bi-stars"></i>
+
+            <h3>
+                Expresión
+            </h3>
+
+            <p>
+                Utiliza la música como una herramienta
+                para comunicar y desarrollar creatividad.
+            </p>
+
+        </article>
+
+
+        <article>
+
+            <span>04</span>
+
+            <i class="bi bi-people"></i>
+
+            <h3>
+                Experiencia
+            </h3>
+
+            <p>
+                Comparte procesos, ensayos y espacios
+                artísticos con la comunidad KIRU.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+CTA
+================================================== -->
+
+<section class="discipline-cta">
+
+    <div>
+
+        <span>
+            TU PRÓXIMO PASO
+        </span>
+
+        <h2>
+            ¿Listo para encontrar
+            tu sonido?
+        </h2>
+
+        <p>
+            Escríbenos por WhatsApp y recibe información
+            sobre el curso que más te interesa.
+        </p>
+
+    </div>
+
+
+    <a
+        href="https://wa.me/573123833646?text=Hola%2C%20estoy%20interesado%2Fa%20en%20los%20cursos%20de%20M%C3%BAsica%20de%20KIRU.%20Quisiera%20recibir%20informaci%C3%B3n."
+        target="_blank"
+        rel="noopener"
+        class="discipline-cta-button"
+    >
+        Comunícate con nosotros
+        <i class="bi bi-stars"></i>
+    </a>
+
+</section>
+
+
+</main>
+
+
+
+<!-- ==================================================
+FOOTER
+================================================== -->
+
+<footer class="discipline-footer">
+
+    <div class="discipline-footer-main">
+
+        <!-- MARCA -->
+
+        <div class="discipline-footer-brand">
+
+            <a href="../index.html">
+
+                <img
+                    src="../img/logo.png"
+                    alt="KIRU Escuela de Artes"
+                >
+
+                <div>
+                    <strong>KIRU</strong>
+                    <span>Escuela de Artes</span>
+                </div>
+
+            </a>
+
+            <p>
+                Crea. Expresa. Transforma.
+            </p>
+
+            <div class="discipline-footer-socials">
+
+                <a
+                    href="https://www.instagram.com/kiru.artes/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram"
+                >
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a
+                    href="https://www.facebook.com/kirusartes/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Facebook"
+                >
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a
+                    href="https://wa.me/573123833646"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="WhatsApp"
+                >
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@KiruEscueladeArtes"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="YouTube"
+                >
+                    <i class="bi bi-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- EXPLORA -->
+
+        <div class="discipline-footer-column">
+
+            <h3>Explora</h3>
+
+            <a href="../index.html">
+                Inicio
+            </a>
+
+            <a href="../index.html#nosotros">
+                Nosotros
+            </a>
+
+            <a href="../index.html#disciplinas">
+                Disciplinas
+            </a>
+
+            <a href="../index.html#experiencia">
+                Experiencia
+            </a>
+
+        </div>
+
+
+        <!-- INFORMACIÓN -->
+
+        <div class="discipline-footer-column">
+
+            <h3>Información</h3>
+
+            <a href="../index.html#precios">
+                Precios
+            </a>
+
+            <a href="../index.html#horarios">
+                Horarios
+            </a>
+
+            <a href="../index.html#preguntas">
+                Preguntas frecuentes
+            </a>
+
+            <a href="../index.html#contacto">
+                Contacto
+            </a>
+
+        </div>
+
+
+        <!-- CONTACTO -->
+
+        <div class="discipline-footer-column">
+
+            <h3>Contacto</h3>
+
+            <a
+                href="https://maps.google.com/?q=Calle+81+%23106-15+Bogotá"
+                target="_blank"
+                rel="noopener"
+            >
+                Calle 81 #106-15, Bogotá
+            </a>
+
+            <a href="tel:+573123833646">
+                312 383 3646
+            </a>
+
+            <a href="mailto:kiruartes@gmail.com">
+                kiruartes@gmail.com
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="discipline-footer-bottom">
+
+        <span>
+            © 2026 KIRU Escuela de Artes.
+        </span>
+
+        <a href="#">
+            Volver arriba
+            <i class="bi bi-arrow-up"></i>
+        </a>
+
+    </div>
+
+</footer>
+
+<script src="disciplinas.js"></script>
+
+</body>
+
+</html>
